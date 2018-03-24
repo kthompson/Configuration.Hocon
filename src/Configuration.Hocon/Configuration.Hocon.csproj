@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>Kevin Thompson</Authors>
+    <PackageId>Configuration.Hocon</PackageId>
+    <PackageProjectUrl>https://github.com/kthompson/Configuration.Hocon</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/kthompson/Configuration.Hocon/master/LICENSE</PackageLicenseUrl>
+    <Description>C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hocon" Version="0.3.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.0.1" />
+  </ItemGroup>
+</Project>
